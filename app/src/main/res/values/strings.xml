@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Connected Weather</string>
+
+    <string name="search_hint">Search OpenWeather API...</string>
+    <string name="search">Search</string>
+    <string name="search_error">Unable to fetch search results.  Please check you internet connection.</string>
+
+    <string name="action_share">Share</string>
+    <string name="action_view_map">View location in maps</string>
+    <string name="share_text">Weather forecast in Corvallis at %1$s is %2$s with a high of %3$s° and a low of %4$s°.</string>
+</resources>

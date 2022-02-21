@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".WeatherDetailActivity"
+    android:gravity="center_horizontal"
+    android:textColor="@color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Corvallis"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline2"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tv_weather_time_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceHeadline4"
+        android:textColor="@color/black"
+        />
+    
+    <TextView
+        android:id="@+id/tv_weather_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceHeadline4"
+        android:layout_marginBottom="4dp"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tv_weather_min_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textAppearance="@style/TextAppearance.CS492Weather.LowTemp"
+            />
+
+        <TextView
+            android:id="@+id/tv_weather_max_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.CS492Weather.HighTemp"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tv_weather_pop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            app:drawableStartCompat="@drawable/ic_baseline_umbrella_36"
+            android:drawablePadding="8dp"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_weather_wind_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:drawablePadding="8dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_weather_cloud_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            app:drawableStartCompat="@drawable/ic_baseline_cloud_queue_36"
+            android:drawablePadding="8dp"
+            android:padding="10dp"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_weather_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceHeadline4"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
