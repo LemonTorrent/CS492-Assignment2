@@ -26,7 +26,7 @@ import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 class MainActivity : AppCompatActivity() {
     // api.openweathermap.org/data/2.5/forecast?q={city name},{state code},{country code}&appid={API key}
     private val apiBaseUrl = "https://api.openweathermap.org"
-    private val apiKey = "a2a4555e1b47af5b958ee9ded3e6bb0b"
+    private val apiKey = "null"
     private val cityKey = "Corvallis"
     private val stateKey = "or"
     private val countryKey = "840"
